@@ -10,7 +10,7 @@ user 'root';
 
 task "setup", make {
 
-  Rex::Snmp::Client::setup(monitor=>"192.168.1.1",community=>"public");
+  Rex::Snmp::Client::setup(monitor=>"192.168.0.0/16",community=>"public");
   Rex::Snmp::Client::remove;
 
 };
