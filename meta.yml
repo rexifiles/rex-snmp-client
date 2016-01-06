@@ -1,0 +1,6 @@
+Name: Rex::Snmp::Client
+Description: Installs snmpd onto the directed machine, allowing access from a designated snmp server
+Author: xarlos <xarlos@xarlos.me>
+License: Apache 2.0
+Require:
+  - Rex::Ext::ParamLookup
