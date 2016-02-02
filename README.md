@@ -3,7 +3,6 @@
 <h3>setup()</h3>
 Will add the snmpd package and configure to the monitoring server of your chosing
 
-
 ```
 task "setup", make {
 
